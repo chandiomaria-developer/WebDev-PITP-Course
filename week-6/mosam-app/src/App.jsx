@@ -10,14 +10,14 @@ function App() {
   const [weather, setWeather] = useState(null);
   const [error, setError] = useState(null);
 
-  const apiKey = '3aa4bf838d804c0cb33120407240902';
+  const apiKey = 'abfb0aa304994121bd3110530253112';
 
   const fetchWeather = async () => {
     if (!city) return;
 
     try {
       const response = await fetch(
-        `http://api.weatherapi.com/v1/current.npmjson?key=${apiKey}&q=${city}&aqi=no`
+        `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no`
       );
 
       if (!response.ok) {
