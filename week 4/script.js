@@ -36,7 +36,7 @@ function calculateScore() {
     resultDiv.innerHTML = `
     <h3>your Results</h3>
     <p>You Scored <storng>${score}</storng> out of <storng>${totalQuestions}</storng> </p>
-    <p><em>${feedbackMessage}</em></p> `
+    <p><em>${feedbackMessage}</em></p> `;
 
 }
 
