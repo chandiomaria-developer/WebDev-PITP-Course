@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-top: 70px;
+  font-family: sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height:80px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-brand{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.logo-icon{
+  font-size: 34px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+/* Navbar links default */
+.navbar-nav .nav-link {
+  color: #ffffff;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.navbar-nav .nav-link:hover {
+  color: #f4c10f; /* Golden color */
+}
+/* Hover effect (zoom + color) */
+.navbar-nav .nav-link:hover {
+  color: #f4c10f;        
+  transform: scale(1.1);
+}
+/* HERO */
+.hero {
+  height: 90vh;
+  background: url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c") center/cover no-repeat;
+}
+
+.hero-overlay {
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+}
+
+/* Header */
+header {
+  background: #111;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.logo-img {
+  height: 50px; 
+  margin-right: 10px;
+}
+
+/* PROPERTY CARDS */
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+.btn-outline-primary:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+
+/* FOOTER ICONS */
+footer i {
+ .footer{
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.social-icons{
+  margin-bottom: 50px;
+}
+
+.social{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  margin: 0 8px;
+  border-radius: 50%;
+  background: #333;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.social:hover{
+  transform: translateY(-5px);
+}
+
+.facebook:hover{
+  background: #1877f2;
+}
+
+.instagram:hover{
+  background: #e1306c;
+}
+
+.twitter:hover{
+  background: #1da1f2;
+}
+
+}
